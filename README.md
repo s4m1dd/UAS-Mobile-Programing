@@ -1,16 +1,31 @@
-# flutter_application_1
+# Kasir App
 
-A new Flutter project.
+Aplikasi kasir sederhana berbasis Flutter (Android) — tugas akhir mata kuliah Mobile Programming.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- Autentikasi: register, login, profil (SQLite + `shared_preferences`)
+- CRUD produk dengan kategori
+- Transaksi penjualan + cetak struk
+- Grafik ringkasan penjualan (`fl_chart`)
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter (Dart), SQLite (`sqflite`), `fl_chart`, `intl`. Tanpa backend — semua data lokal di perangkat.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Menjalankan
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Struktur
+
+```
+lib/
+├── main.dart
+├── database/database_helper.dart   # skema & CRUD SQLite
+├── models/                          # product, transaction, user
+└── screens/                         # splash, auth, produk, transaksi, struk, profil
+```
