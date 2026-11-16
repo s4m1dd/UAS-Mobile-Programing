@@ -25,3 +25,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/branding/kasirku-icon.png
+  adaptive_icon_background: '#2161D6'
+  adaptive_icon_foreground: assets/branding/kasirku-foreground.png
+  adaptive_icon_foreground_inset: 0

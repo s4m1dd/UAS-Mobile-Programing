@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Kasirku</title>
+  <g>
+    <rect x="306" y="270" width="412" height="278" rx="54" fill="#FFFFFF"/>
+    <rect x="344" y="308" width="336" height="174" rx="26" fill="#123E9A"/>
+    <path d="M450 347v96m8-46 65-50m-65 50 65 46" fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m565 404 22 22 43-49" fill="none" stroke="#80E6CB" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M354 548h316l71 134c12 25-4 52-33 52H316c-29 0-45-27-33-52z" fill="#FFFFFF"/>
+    <rect x="367" y="583" width="62" height="29" rx="12" fill="#B9D1FA"/>
+    <rect x="454" y="583" width="62" height="29" rx="12" fill="#B9D1FA"/>
+    <rect x="541" y="583" width="116" height="29" rx="12" fill="#80E6CB"/>
+    <rect x="363" y="659" width="298" height="25" rx="12" fill="#123E9A"/>
+  </g>
+</svg>

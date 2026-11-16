@@ -304,12 +304,12 @@ class DatabaseHelper {
 
     final todayRevenue = (await db.rawQuery('''
       SELECT SUM(totalAmount) as revenue FROM transactions
-      WHERE DATE(transactionDate) = DATE('now')
+      WHERE DATE(transactionDate) = DATE('now', 'localtime')
     ''')).first['revenue'] ?? 0.0;
 
     final monthlyRevenue = (await db.rawQuery('''
       SELECT SUM(totalAmount) as revenue FROM transactions
-      WHERE strftime('%Y-%m', transactionDate) = strftime('%Y-%m', 'now')
+      WHERE strftime('%Y-%m', transactionDate) = strftime('%Y-%m', 'now', 'localtime')
     ''')).first['revenue'] ?? 0.0;
 
     return {
